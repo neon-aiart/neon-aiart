@@ -42,7 +42,7 @@
       <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/snake.svg" alt="Snake animation" />
     </td>
     <td align="right" valign="top" width="320">
-      <img align="right" height="480" src="https://github.com/neon-aiart/neon-aiart/blob/main/00032-3498450312-01.gif?raw=true" />
+      <img align="right" height="480" src="https://neon-random-image.neon-aiillust.workers.dev/" />
     </td>
   </tr>
 </table>

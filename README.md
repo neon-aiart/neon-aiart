@@ -1,15 +1,34 @@
-<img align="right" height="240" src="https://github.com/neon-aiart/neon-aiart/blob/main/00032-3498450312-01.gif"  />
-
-###
-
-<h2 align="center">ねおん</h2>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=neon-aiart&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=neon-aiart&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<table align="center" border="0" width="100%">
+  <tr>
+    <td align="center" valign="middle">
+      <h2>ねおん</h2>
+      <hr />
+      <div align="center">
+  <a href="あなたのプロフィールURL">
+    <img src="https://img.shields.io/static/v1?label=Quiet+Internet&message=しずかなインターネット&color=333333&style=for-the-badge" alt="しずかなインターネット" />
+  </a>
 </div>
+      <div align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=neon-aiart&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=neon-aiart&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+        <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=neon-aiart&show_icons=true&locale=en&layout=compact" alt="neon-aiart" /></p>
+        <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=neon-aiart&show_icons=true&locale=en" alt="neon-aiart" /></p>
+        <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart&" alt="neon-aiart" /></p>
+      </div>
+      <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=neon-aiart&show_icons=true&theme=dracula&locale=ja" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=neon-aiart&layout=compact&theme=dracula&locale=ja" alt="languages graph" />
+</div>
+    </td>
+    <td align="right" valign="top" width="200">
+      <img align="right" height="240" src="https://github.com/neon-aiart/neon-aiart/blob/main/00032-3498450312-01.gif?raw=true" />
+    </td>
+  </tr>
+</table>
+
+<br clear="both">
+###
+
 
 ###
 

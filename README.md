@@ -24,7 +24,7 @@
         <a href="https://bsky.app/profile/neon-ai.art/" target="_blank">
           <img src="https://img.shields.io/static/v1?message=Bluesky&logo=bluesky&label=&color=0285FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="bluesky logo"  />
         </a>
-        <a href="discordapp.com/users/1369337737848815701" target="_blank">
+        <a href="https://discordapp.com/users/1369337737848815701" target="_blank">
           <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
         </a>
         <a href="mailto:neon.aiillust@gmail.com" target="_blank">
@@ -41,8 +41,8 @@
       </div>
       <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/snake.svg" alt="Snake animation" />
     </td>
-    <td align="right" valign="top" width="200">
-      <img align="right" height="240" src="https://github.com/neon-aiart/neon-aiart/blob/main/00032-3498450312-01.gif?raw=true" />
+    <td align="right" valign="top" width="320">
+      <img align="right" height="480" src="https://github.com/neon-aiart/neon-aiart/blob/main/00032-3498450312-01.gif?raw=true" />
     </td>
   </tr>
 </table>

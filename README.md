@@ -27,19 +27,27 @@
       </a>
       <a href="mailto:neon.aiillust@gmail.com">
         <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-      </a>
-      <br />
-      <a href="https://sizu.me/neon_aiart">
-        <img src="https://img.shields.io/static/v1?label=Quiet+Internet&message=%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88&color=333333&style=for-the-badge" alt="しずかなインターネット" />
+      </a><br />
+      <a href="https://greasyfork.org/ja/users/1494762">
+        <img src="https://img.shields.io/badge/Greasymonkey-Userscript-f0ad4e?style=for-the-badge&logo=javascript&logoColor=black" alt="Greasymonkey" />
       </a>
     </td>
-    <td align="center" valign="top" width="360" rowspan="3">
-      <img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: 320px;" />
+    <td align="center" valign="top" width="380" rowspan="3">
+      <div height="100%"><h2><img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: auto;" /></h2></div>
+      <p align="right">
+        <a href="https://sizu.me/neon_aiart">
+          <img src="https://img.shields.io/static/v1?label=Quiet+Internet&message=%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88&color=333333&style=for-the-badge" alt="しずかなインターネット" />
+        </a><br />
+        Support: 
+        <a href="https://ofuse.me/d045dc52">
+          <img src="https://img.shields.io/badge/OFUSE-応援する-00c2b2?style=for-the-badge&logo=heart&logoColor=white" alt="ofuse" align="center"/>
+        </a>
+      </p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart&theme=dracula" alt="neon-aiart" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart&theme=dracula&v=1" alt="neon-aiart" />
     </td>
   </tr>
   <tr>

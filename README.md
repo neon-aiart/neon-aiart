@@ -34,7 +34,7 @@
       </a>
     </td>
     <td align="center" valign="top" width="360" rowspan="3">
-      <img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: auto;" />
+      <img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: 320px;" />
     </td>
   </tr>
   <tr>
@@ -44,35 +44,23 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart&theme=dracula" alt="profile-details" /><br />
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart&theme=dracula" alt="profile-status" width="49%" />
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart&theme=dracula" alt="productive-time" width="49%" /><br />
-      <img src="https://github-profile-trophy.vercel.app/??username=neon-aiart&theme=dracula" alt="profile-trophy" /> 
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart&theme=dracula" alt="profile-details" /><br />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart&theme=dracula" alt="profile-status" width="49%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart&theme=dracula" alt="productive-time" width="49%" />
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" />
+        <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+      </picture>
     </td>
   </tr>
 </table>
 
 <!-- 
-## Stats
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart&theme=gruvbox)  
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=neon-aiart&theme=gruvbox)  
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=neon-aiart&theme=gruvbox)  
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart&theme=gruvbox)  
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart&theme=gruvbox&utcOffset=9)  
-![](https://github-profile-trophy.vercel.app/?username=neon-aiart&theme=gruvbox)  
-
-## Trophy
-
-![trophy](https://github-profile-trophy.vercel.app/?username=neon-aiart&theme=gruvbox)  
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=neon-aiart&theme=algolia)](https://github.com/neon-aiart/github-profile-trophy)  
-
 ## Support
 
 <h3 align="left">Support:</h3>

@@ -1,6 +1,6 @@
 <table align="center" border="0" width="100%">
   <tr>
-    <td align="center" valign="middle">
+    <td align="center" valign="top">
       <img src="https://komarev.com/ghpvc/?username=neon-aiart&label=Profile%20views&color=0e75b6&style=flat" alt="neon-aiart" align="right" />
       <h2>ねおん</h2>
       <div align="center">

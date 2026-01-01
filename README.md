@@ -35,7 +35,6 @@
     <td align="center" valign="top" width="380" rowspan="3">
       <div height="100%"><h2><img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: auto;" /></h2></div>
       <p align="right">
-        <img src="https://img.shields.io/badge/X_(Twitter)-None-grey?style=for-the-badge&logo=x&logoColor=white" alt="No Twitter" />
         <a href="https://sizu.me/neon_aiart">
           <img src="https://img.shields.io/badge/Diary-%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88-5BE?style=for-the-badge&logo=googledocs&logoColor=white" alt="しずかなインターネット" />
         </a><br />

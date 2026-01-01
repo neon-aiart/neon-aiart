@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart&theme=dracula&v=20260102" alt="neon-aiart" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart&theme=dracula" alt="neon-aiart" />
     </td>
   </tr>
   <tr>

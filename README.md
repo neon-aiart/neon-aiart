@@ -1,4 +1,4 @@
-<table align="center" border="0" width="100%">
+<table align="center" border width="100%">
   <tr>
     <td align="center" valign="top" width="560">
       <img src="https://komarev.com/ghpvc/?username=neon-aiart&label=Profile%20views&color=0e75b6&style=flat" alt="neon-aiart" align="right" />
@@ -52,7 +52,7 @@
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/snake.svg" alt="Snake animation" />
+      <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
     </td>
   </tr>
 </table>
@@ -72,5 +72,10 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=neon-aiart&theme=gruvbox)  
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=neon-aiart&theme=algolia)](https://github.com/neon-aiart/github-profile-trophy)  
+
+## Support
+
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/neon"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="neon" /></a><a href="https://ko-fi.com/neon"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="neon" /></a></p><br><br>
 
 -->

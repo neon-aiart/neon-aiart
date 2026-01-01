@@ -21,18 +21,18 @@
         <img src="https://cdn.simpleicons.org/discord/5865F2" height="30" alt="discord logo" />
       </div>
       <div align="center">
-        <a href="https://bsky.app/profile/neon-ai.art/" target="_blank">
+        <a href="https://bsky.app/profile/neon-ai.art/">
           <img src="https://img.shields.io/static/v1?message=Bluesky&logo=bluesky&label=&color=0285FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="bluesky logo"  />
         </a>
-        <a href="https://discordapp.com/users/1369337737848815701" target="_blank">
+        <a href="https://discordapp.com/users/1369337737848815701">
           <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
         </a>
-        <a href="mailto:neon.aiillust@gmail.com" target="_blank">
+        <a href="mailto:neon.aiillust@gmail.com">
           <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
         </a>
       </div>
       <div align="center">
-        <a href="https://sizu.me/neon_aiart" target="_blank">
+        <a href="https://sizu.me/neon_aiart">
           <img src="https://img.shields.io/static/v1?label=Quiet+Internet&message=%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88&color=333333&style=for-the-badge" alt="しずかなインターネット" />
         </a>
       </div>
@@ -41,8 +41,8 @@
       </div>
       <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/snake.svg" alt="Snake animation" />
     </td>
-    <td align="right" valign="top" width="320">
-      <img align="right" height="480" src="https://neon-random-image.neon-aiillust.workers.dev" />
+    <td align="center" valign="middle" width="360">
+      <img src="https://neon-random-image.neon-aiillust.workers.dev" style="height: 480px; width: auto;" />
     </td>
   </tr>
 </table>

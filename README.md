@@ -1,4 +1,4 @@
-<table align="center" border width="100%">
+<table align="center" border="0" width="100%">
   <tr>
     <td align="center" valign="top" width="560">
       <img src="https://komarev.com/ghpvc/?username=neon-aiart&label=Profile%20views&color=0e75b6&style=flat" alt="neon-aiart" align="right" />
@@ -35,16 +35,20 @@
     <td align="center" valign="top" width="380" rowspan="3">
       <div style="height: 100%;">
         <h2>
-          <img src="https://neon-random-image.neon-aiillust.workers.dev" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" />
+          <img src="https://random-image.neon-aiillust.workers.dev" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" />
         </h2>
       </div>
       <p align="right">
         <a href="https://sizu.me/neon_aiart">
           <img src="https://img.shields.io/badge/Diary-%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88-5BE?style=for-the-badge&logo=googledocs&logoColor=white" alt="しずかなインターネット" />
         </a><br />
-        Support: 
+        <br />
+        Support: <br />
+        <a href="https://github.com/sponsors/neon-aiart">
+          <img src="https://img.shields.io/badge/GitHub-Sponsors-EA4AAA?style=for-the-badge&logo=github&logoColor=white" />
+        </a><br />
         <a href="https://ofuse.me/d045dc52">
-          <img src="https://img.shields.io/badge/OFUSE-%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B-00c2b2?style=for-the-badge&logo=heart&logoColor=white" alt="ofuse" align="center"/>
+          <img src="https://img.shields.io/badge/OFUSE-%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B-00c2b2?style=for-the-badge&logo=heart&logoColor=white" alt="ofuse" />
         </a>
       </p>
     </td>
@@ -56,9 +60,9 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart&theme=dracula" alt="profile-details" /><br />
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart&theme=dracula" alt="profile-status" width="49%" />
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart&theme=dracula" alt="productive-time" width="49%" />
+      <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart%26theme=dracula" alt="profile-details" /><br />
+      <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart%26theme=dracula" alt="profile-status" width="49%" />
+      <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart%26theme=dracula" alt="productive-time" width="49%" />
     </td>
   </tr>
   <tr>
@@ -66,16 +70,20 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" />
-        <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
       </picture>
     </td>
   </tr>
 </table>
 
-<!-- 
-## Support
+---
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/neon"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="neon" /></a><a href="https://ko-fi.com/neon"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="neon" /></a></p><br><br>
 
+
+
+
+---
+
+<!--
+<script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>
 -->

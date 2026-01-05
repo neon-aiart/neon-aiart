@@ -35,7 +35,7 @@
     <td align="center" valign="top" width="380" rowspan="3">
       <div style="height: 100%;">
         <h2>
-          <img src="https://random-image.neon-aiillust.workers.dev" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" />
+          <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" />
         </h2>
       </div>
       <p align="right">

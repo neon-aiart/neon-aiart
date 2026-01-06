@@ -47,7 +47,7 @@
         <a href="https://github.com/sponsors/neon-aiart">
           <img src="https://img.shields.io/badge/GitHub-Sponsors-EA4AAA?style=for-the-badge&logo=github&logoColor=white" />
         </a><br />
-        <a href="https://ofuse.me/d045dc52">
+        <a href="https://ofuse.me/neon">
           <img src="https://img.shields.io/badge/OFUSE-%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B-00c2b2?style=for-the-badge&logo=heart&logoColor=white" alt="ofuse" />
         </a>
       </p>
@@ -77,6 +77,34 @@
 </table>
 
 ---
+
+## ✨ Project Showcase
+
+### **💬 [Neon Spitch Link](https://github.com/neon-aiart/neon-spitch-link/)**
+**AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  
+Automatically read AI conversations. The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.
+
+### **🐥 [Figure Maker](https://github.com/neon-aiart/figure-maker-gemini-canvas/)**
+**Gemini Canvas専用の画像生成補助。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
+An image generation aid for Gemini Canvas. Converts uploaded images into high-quality figure-style AI illustrations.
+
+### **⚖️ [Bsky Follower Comparer](https://github.com/neon-aiart/bsky-follower-comparer/)**
+**Blueskyフォロワー比較ツール。** ログイン不要。最大３つのアカウントの共通点や差異を抽出します。  
+A tool to compare followers of multiple accounts (up to 3) and extract commonalities/differences without logging in.
+
+### **🔄️ [Bluesky Tokimeki Switcher](https://github.com/neon-aiart/bsky-tokimeki-switcher/)**
+**BSKY ⇔ Tokimeki 切り替え。** URLをボタンやショートカットで瞬時に切り替えるUserScript。  
+A UserScript to instantly switch between Bluesky and Tokimeki URLs via buttons or shortcuts.
+
+### **🌈 [Tokimeki MediaView Fix Plus](https://github.com/neon-aiart/tokimeki-media-view-fix/)**
+**Tokimekiの操作性を劇的に改善。** メディアビューのクリック修復に加え、通知欄のメディアプレビューや高度なキーボード操作を追加します。  
+Fixes Tokimeki's MediaView, adds media previews to the notification column, and enables full keyboard-driven interactions.
+
+### **↩️ [History Go First](https://github.com/neon-aiart/history-go-first/)**
+**履歴の最初へ一気に戻る。** ブラウザの履歴を遡り、最初に開いたページまで瞬時に戻ります。  
+A UserScript that navigates back to the very first page of the browser history in one go.
+
+
 
 
 

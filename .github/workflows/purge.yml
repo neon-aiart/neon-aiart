@@ -1,0 +1,12 @@
+name: 🗑️ Auto Camo Purge
+on:
+  workflow_dispatch: # Workerからここを叩くよ
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Cache
+        uses: koki-develop/hub-purge-action@v1
+        with:
+          repository: neon-aiart/neon-aiart

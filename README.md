@@ -1,7 +1,7 @@
 <table align="center" border="0" width="100%">
   <tr>
     <td align="center" valign="top" width="560">
-      <img src="https://komarev.com/ghpvc/?username=neon-aiart&label=Profile%20views&color=0e75b6&style=flat" alt="neon-aiart" align="right" />
+      <img src="https://purge-counter.neon-aiillust.workers.dev/?username=neon-aiart&label=Profile%20views&color=0e75b6&style=flat" alt="neon-aiart" align="right" />
       <h2>ねおん</h2>
       <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="30" alt="javascript logo" />
       <img width="12" />

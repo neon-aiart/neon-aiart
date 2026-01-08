@@ -12,10 +12,10 @@ jobs:
       # - uses: actions/checkout@v4
 
       # 2. その持ってきた README.md を解析してパージする！
-      - name: Purge Cache
-        uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
-        with:
-          repository: neon-aiart/neon-aiart
+      # - name: Purge Cache
+      #   uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
+      #   with:
+      #     repository: neon-aiart/neon-aiart
 
       - name: Purge Worker Cache
         run: |
@@ -27,12 +27,12 @@ jobs:
 
           for url in "${TARGET_URLS[@]}"; do
             echo "Purging: $url"
-            
+
             # 1. URLからハッシュ(SHA1)を計算
-            # 余計な文字を排除して純粋なハッシュ値だけを抽出します
-            HASH=$(echo -n "$url" | openssl sha1 | sed 's/^.* //')
+            HASH=$(echo -n "$url" | openssl sha1 | awk '{print $NF}')
+            echo "Computed Hash: $HASH"
             
             # 2. GitHub Camoの公式パージURLを叩く
-            # エラー(Malformed)を防ぐため、URLをダブルクォートでしっかり囲みます
-            curl -X PURGE "camo.githubusercontent.com{HASH}" || echo "Failed to purge $url"
+            PURGE_URL="camo.githubusercontent.com{HASH}"
+            curl -X PURGE "$PURGE_URL" || echo "Failed to purge $url"
           done

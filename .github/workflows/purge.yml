@@ -9,8 +9,9 @@ jobs:
       - name: Purge Cache
         uses: koki-develop/hub-purge-action@v1
         env:
-          # ここ！with の中じゃなくて env に書くのが正解だよ
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          repository: neon-aiart/neon-aiart
-          path: README.md
+          # repository指定はやめて、URLを直接書く！
+          # これなら「解析」を飛ばして、直接GitHubに命令を飛ばせるよ
+          urls: |
+            [https://random-image.neon-aiillust.workers.dev/](https://random-image.neon-aiillust.workers.dev/)

@@ -25,5 +25,5 @@ jobs:
           # 3. 重複を削除して、ひとつずつ PURGE 命令を送る
           for url in $CAMO_URLS; do
             echo "Purging: $url"
-            curl -X PURGE "$url"
+            curl -sS -X PURGE "$url"
           done

@@ -14,7 +14,7 @@ jobs:
           PROFILE_URL="https://github.com/neon-aiart/"
           echo "Target: $PROFILE_URL..."
 
-          # 2. HTMLを取得してURLを抽出
+          # 2. "camo.githubusercontent.com..." で始まるURLをすべて抽出
           CAMO_URLS=$(curl -s "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com[a-f0-9/]+' | sort -u)
 
           if [ -z "$CAMO_URLS" ]; then

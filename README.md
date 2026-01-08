@@ -34,10 +34,12 @@
     </td>
     <td align="center" valign="top" width="380" rowspan="3">
       <div style="height: 100%;">
-        <h2>
-          <a href="https://random-image.neon-aiillust.workers.dev/purge-and-close" target="_blank" rel="noopener noreferrer"><img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /></a><br />
-        </h2>
+        <a href="https://random-image.neon-aiillust.workers.dev/purge-and-close" target="_blank" rel="noopener noreferrer">
+          <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /><br />
+          click to camo purge and refresh random image
+        </a>
       </div>
+      <h2></h2>
       <p align="right">
         <a href="https://sizu.me/neon_aiart">
           <img src="https://img.shields.io/badge/Diary-%E3%81%97%E3%81%9A%E3%81%8B%E3%81%AA%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88-5BE?style=for-the-badge&logo=googledocs&logoColor=white" alt="しずかなインターネット" />

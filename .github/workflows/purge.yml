@@ -16,4 +16,3 @@ jobs:
         uses: koki-develop/hub-purge-action@v1
         with:
           repository: neon-aiart/neon-aiart
-          path: README.md

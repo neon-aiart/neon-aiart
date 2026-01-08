@@ -25,7 +25,7 @@ jobs:
           # 2. その中から "camo.githubusercontent.com..." で始まるURLをすべて抽出
           # 3. 重複を削除して、ひとつずつ PURGE 命令を送る
           
-          PROFILE_URL="github.com"
+          PROFILE_URL="https://github.com/neon-aiart/"
 
           echo "Fetching Camo URLs from $PROFILE_URL..."
           

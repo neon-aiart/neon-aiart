@@ -9,6 +9,4 @@ jobs:
       - name: Purge Cache
         uses: koki-develop/hub-purge-action@v1
         with:
-          repository:
-            neon-aiart/neon-aiart
-            neon-aiart/neon-private
+          repository: neon-aiart/neon-private

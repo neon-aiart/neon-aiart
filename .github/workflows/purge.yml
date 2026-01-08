@@ -20,19 +20,23 @@ jobs:
       - name: Purge Worker Cache
         run: |
           # あなたのWorkerのURLをCamoのハッシュに変換して消去を依頼する
-          TARGET_URLS=(
-            "https://random-image.neon-aiillust.workers.dev/"
-            "https://image-cache.neon-aiillust.workers.dev/"
-          )
 
-          for url in "${TARGET_URLS[@]}"; do
+          # 1. あなたのプロフィールページ（READMEが表示されている場所）のHTMLを読み込む
+          # 2. その中から "camo.githubusercontent.com..." で始まるURLをすべて抽出
+          # 3. 重複を削除して、ひとつずつ PURGE 命令を送る
+          
+          PROFILE_URL="github.com"
+
+          echo "Fetching Camo URLs from $PROFILE_URL..."
+          
+          CAMO_URLS=$(curl -s "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com[a-f0-9/]+' | sort -u)
+
+          if [ -z "$CAMO_URLS" ]; then
+            echo "No Camo URLs found. Check if the profile is public."
+            exit 0
+          fi
+
+          for url in $CAMO_URLS; do
             echo "Purging: $url"
-
-            # 1. URLからハッシュ(SHA1)を計算
-            HASH=$(echo -n "$url" | openssl sha1 | awk '{print $NF}')
-            echo "Computed Hash: $HASH"
-            
-            # 2. GitHub Camoの公式パージURLを叩く
-            PURGE_URL="camo.githubusercontent.com{HASH}"
-            curl -X PURGE "$PURGE_URL" || echo "Failed to purge $url"
+            curl -X PURGE "$url"
           done

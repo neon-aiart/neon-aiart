@@ -13,6 +13,6 @@ jobs:
 
       # 2. その持ってきた README.md を解析してパージする！
       - name: Purge Cache
-        uses: koki-develop/hub-purge-action@v1
+        uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
         with:
           repository: neon-aiart/neon-aiart

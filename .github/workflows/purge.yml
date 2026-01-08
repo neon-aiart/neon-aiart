@@ -1,12 +1,18 @@
 name: 🗑️ Auto Camo Purge
 on:
-  workflow_dispatch: # Workerからここを叩くよ
+  workflow_dispatch:
 
 jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
+      # 1. まずリポジトリの中身（README.md）をランナーに持ってくる！
+      - uses: actions/checkout@v4
+
+      # 2. その持ってきた README.md を解析してパージする！
       - name: Purge Cache
         uses: koki-develop/hub-purge-action@v1
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           repository: neon-aiart/neon-aiart
+          path: README.md

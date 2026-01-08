@@ -20,9 +20,6 @@ jobs:
       - name: Purge Worker Cache
         run: |
           # あなたのWorkerのURLをCamoのハッシュに変換して消去を依頼する
-          # GitHub公式のパージ用URLを直接叩きます
-          
-          # パージしたいURLのリスト
           TARGET_URLS=(
             "https://random-image.neon-aiillust.workers.dev/"
             "https://image-cache.neon-aiillust.workers.dev/"
@@ -30,6 +27,12 @@ jobs:
 
           for url in "${TARGET_URLS[@]}"; do
             echo "Purging: $url"
-            # GitHub公式のCamoサーバーに対して直接PURGEリクエストを送る
-            curl -X PURGE "camo.githubusercontent.com(echo -n $url | openssl sha1 -hmac "github-camo" | awk '{print $2}')" || echo "Failed to purge $url"
+            
+            # 1. URLからハッシュ(SHA1)を計算
+            # 余計な文字を排除して純粋なハッシュ値だけを抽出します
+            HASH=$(echo -n "$url" | openssl sha1 | sed 's/^.* //')
+            
+            # 2. GitHub Camoの公式パージURLを叩く
+            # エラー(Malformed)を防ぐため、URLをダブルクォートでしっかり囲みます
+            curl -X PURGE "camo.githubusercontent.com{HASH}" || echo "Failed to purge $url"
           done

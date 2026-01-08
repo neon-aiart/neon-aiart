@@ -6,13 +6,11 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      # 1. まずリポジトリの中身（README.md）をランナーに持ってくる！
-      - uses: actions/checkout@v4
-
-      # 2. その持ってきた README.md を解析してパージする！
       - name: Purge Cache
         uses: koki-develop/hub-purge-action@v1
-        with:
+        env:
+          # ここ！with の中じゃなくて env に書くのが正解だよ
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
           repository: neon-aiart/neon-aiart
           path: README.md

@@ -8,27 +8,13 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      # 1. まずリポジトリの中身（README.md）をランナーに持ってくる！
-      # - uses: actions/checkout@v4
-
-      # 2. その持ってきた README.md を解析してパージする！
-      # - name: Purge Cache
-      #   uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
-      #   with:
-      #     repository: neon-aiart/neon-aiart
-
       - name: Purge Worker Cache
         run: |
-          # あなたのWorkerのURLをCamoのハッシュに変換して消去を依頼する
-
-          # 1. あなたのプロフィールページ（READMEが表示されている場所）のHTMLを読み込む
-          # 2. その中から "camo.githubusercontent.com..." で始まるURLをすべて抽出
-          # 3. 重複を削除して、ひとつずつ PURGE 命令を送る
-          
+          # 1. プロフィールページ（READMEが表示されている場所）のHTMLを読み込む
           PROFILE_URL="https://github.com/neon-aiart/"
+          echo "Target: $PROFILE_URL..."
 
-          echo "Fetching Camo URLs from $PROFILE_URL..."
-          
+          # 2. HTMLを取得してURLを抽出
           CAMO_URLS=$(curl -s "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com[a-f0-9/]+' | sort -u)
 
           if [ -z "$CAMO_URLS" ]; then
@@ -36,6 +22,7 @@ jobs:
             exit 0
           fi
 
+          # 3. 重複を削除して、ひとつずつ PURGE 命令を送る
           for url in $CAMO_URLS; do
             echo "Purging: $url"
             curl -X PURGE "$url"

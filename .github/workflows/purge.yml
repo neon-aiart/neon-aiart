@@ -2,17 +2,34 @@ name: 🗑️ Auto Camo Purge
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # １時間に１回自動実行
+    - cron: '*/5 * * * *' # ５分おき
 
 jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
       # 1. まずリポジトリの中身（README.md）をランナーに持ってくる！
-      - uses: actions/checkout@v4
+      # - uses: actions/checkout@v4
 
       # 2. その持ってきた README.md を解析してパージする！
       - name: Purge Cache
         uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
         with:
           repository: neon-aiart/neon-aiart
+
+      - name: Purge Worker Cache
+        run: |
+          # あなたのWorkerのURLをCamoのハッシュに変換して消去を依頼する
+          # GitHub公式のパージ用URLを直接叩きます
+          
+          # パージしたいURLのリスト
+          TARGET_URLS=(
+            "https://random-image.neon-aiillust.workers.dev/"
+            "https://image-cache.neon-aiillust.workers.dev/"
+          )
+
+          for url in "${TARGET_URLS[@]}"; do
+            echo "Purging: $url"
+            # GitHub公式のCamoサーバーに対して直接PURGEリクエストを送る
+            curl -X PURGE "camo.githubusercontent.com(echo -n $url | openssl sha1 -hmac "github-camo" | awk '{print $2}')" || echo "Failed to purge $url"
+          done

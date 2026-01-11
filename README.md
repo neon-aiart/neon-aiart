@@ -92,6 +92,10 @@ Automatically read AI conversations. The world's only UserScript that uses VOICE
 **Gemini Canvas専用の画像生成補助。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
 An image generation aid for Gemini Canvas. Converts uploaded images into high-quality figure-style AI illustrations.
 
+### **🍽️ [Meshi Art Maker](https://github.com/neon-aiart/meshi-art-maker/)**
+**GoogleのGemini Canvas環境**専用の、究極の「飯テロ」画像生成補助アプリです。  
+An ultimate "Appetite-Stimulating" image generation aid specifically designed for the **Google Gemini Canvas environment**.
+
 ### **🔄️ [Bluesky Tokimeki Switcher](https://github.com/neon-aiart/bsky-tokimeki-switcher/)**
 **BSKY ⇔ Tokimeki 切り替え。** URLをボタンやショートカットで瞬時に切り替えるUserScript。  
 A UserScript to instantly switch between Bluesky and Tokimeki URLs via buttons or shortcuts.

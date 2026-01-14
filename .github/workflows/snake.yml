@@ -3,7 +3,7 @@ name: generate animation
 on:
   # 24時間ごとに自動実行
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 15 * * *"
   # 手動でいつでも実行できるようにする
   workflow_dispatch:
   # mainブランチにプッシュされた時も実行

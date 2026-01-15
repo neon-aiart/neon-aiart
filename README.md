@@ -88,7 +88,11 @@
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <img src="https://snake-or-pacman.neon-aiillust.workers.dev/" alt="Contribution Graph" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://snake-or-pacman.neon-aiillust.workers.dev/?theme=dark" />
+        <source media="(prefers-color-scheme: light)" srcset="https://snake-or-pacman.neon-aiillust.workers.dev/?theme=light" />
+        <img src="https://snake-or-pacman.neon-aiillust.workers.dev/?theme=light" alt="Contribution Graph" />
+      </picture>
       <!--
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake-dark.svg" />

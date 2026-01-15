@@ -59,7 +59,11 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart%26theme=dracula" alt="neon-stats" />
+      <picture><!-- https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart -->
+        <source media="(prefers-color-scheme: dark)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart%26theme=dracula" />
+        <source media="(prefers-color-scheme: light)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart%26theme=cobalt" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-readme-streak-stats.herokuapp.com/?user=neon-aiart%26theme=cobalt" alt="neon-stats" />
+      </picture>
     </td>
   </tr>
   <tr>

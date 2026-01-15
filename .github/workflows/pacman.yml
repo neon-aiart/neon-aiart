@@ -1,4 +1,4 @@
-name: generate pacman
+name: 👾 generate pacman
 
 on:
   schedule: # run automatically every 24 hours

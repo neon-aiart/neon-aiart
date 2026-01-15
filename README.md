@@ -88,17 +88,20 @@
   </tr>
   <tr>
     <td align="center" colspan="2">
+      <img src="https://snake-or-pacman.neon-aiillust.workers.dev/" alt="Contribution Graph" />
+      <!--
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" />
-        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" />
       </picture>
-      <!-- <br />
+      <br />
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/pacman-contribution-graph-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/pacman-contribution-graph.svg" />
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/pacman-contribution-graph.svg" />
-      </picture> -->
+        <img src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/output/pacman-contribution-graph.svg" alt="Pacman Contribution Graph" />
+      </picture>
+      -->
     </td>
   </tr>
 </table>

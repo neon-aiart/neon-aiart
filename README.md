@@ -71,18 +71,18 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart%26theme=dracula">
         <source media="(prefers-color-scheme: light)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart%26theme=cobalt">
-        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart%26theme=dracula" alt="profile-details" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=neon-aiart%26theme=cobalt" alt="profile-details" />
       </picture>
       <br />
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart%26theme=dracula">
         <source media="(prefers-color-scheme: light)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart%26theme=cobalt">
-        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart%26theme=dracula" alt="profile-status" width="49%" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/stats?username=neon-aiart%26theme=cobalt" alt="profile-status" width="49%" />
       </picture>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart%26theme=dracula">
         <source media="(prefers-color-scheme: light)" srcset="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart%26theme=cobalt">
-        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart%26theme=dracula" alt="productive-time" width="49%" />
+        <img src="https://image-cache.neon-aiillust.workers.dev/?url=https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=neon-aiart%26theme=cobalt" alt="productive-time" width="49%" />
       </picture>
     </td>
   </tr>

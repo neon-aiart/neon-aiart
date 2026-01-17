@@ -110,7 +110,9 @@
   </tr>
 </table>
 
-⭐ [スター](https://github.com/neon-aiart/neon-aiart/)をポチッとお願いします✨ (Please hit the [Star] button!)
+<div align="center">
+⭐ <a href="https://github.com/neon-aiart/neon-aiart/">スター</a>をポチッとお願いします✨ (Please hit the [Star] button!)
+</div>
 
 ---
 

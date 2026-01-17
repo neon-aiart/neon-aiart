@@ -110,6 +110,8 @@
   </tr>
 </table>
 
+⭐ [スター](https://github.com/neon-aiart/neon-aiart/)をポチッとお願いします✨ (Please hit the [Star] button!)
+
 ---
 
 ## 🎀 Project Showcase 🎀

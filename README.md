@@ -119,11 +119,11 @@
 Automatically read AI conversations. The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.
 
 ### **🐥 [Figure Maker](https://github.com/neon-aiart/figure-maker-gemini-canvas/)**
-**Gemini Canvas専用の画像生成補助。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
+**Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
 An image generation aid for Gemini Canvas. Converts uploaded images into high-quality figure-style AI illustrations.
 
 ### **🍽️ [Meshi Art Maker](https://github.com/neon-aiart/meshi-art-maker/)**
-**GoogleのGemini Canvas環境**専用の、究極の「飯テロ」画像生成補助アプリです。  
+**Gemini Canvas専用の画像生成補助アプリ。** ワンクリックで、究極の「飯テロ」画像が生成できます。  
 An ultimate "Appetite-Stimulating" image generation aid specifically designed for the **Google Gemini Canvas environment**.
 
 ### **🔄️ [Bluesky Tokimeki Switcher](https://github.com/neon-aiart/bsky-tokimeki-switcher/)**

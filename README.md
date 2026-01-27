@@ -126,7 +126,7 @@
 **Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
 **An image generation aid for Gemini Canvas.** Converts uploaded images into high-quality figure-style AI illustrations.  
 
-### **🍽️ [Meshi Art Maker](https://github.com/neon-aiart/meshi-art-maker/)**
+### **🍽️ [Meshi AIart Maker](https://github.com/neon-aiart/meshi-art-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** ワンクリックで、究極の「飯テロ」画像が生成できます。  
 An ultimate "Appetite-Stimulating" image generation aid specifically designed for the **Google Gemini Canvas environment**.  
 

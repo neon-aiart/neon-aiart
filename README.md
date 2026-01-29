@@ -116,7 +116,7 @@
 
 ---
 
-## 🎀 Project Showcase 🎀
+## 🎀 Projects Showcase 🎀
 
 ### **💬 [Neon Spitch Link](https://github.com/neon-aiart/neon-spitch-link/)**
 **AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  

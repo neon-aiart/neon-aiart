@@ -2,7 +2,7 @@ name: 🗑️ Auto Camo Purge
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *' # ５分おき
+    - cron: '*/10 * * * *' # 10分おき
 
 jobs:
   purge:

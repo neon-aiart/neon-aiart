@@ -122,7 +122,7 @@
 **AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  
 **Automatically read AI conversations.** The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.  
 
-### **🐥 [Figure Maker](https://github.com/neon-aiart/figure-maker-gemini-canvas/)**
+### **🐥 [Figure Maker](https://github.com/neon-aiart/figure-aiart-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
 **An image generation aid for Gemini Canvas.** Converts uploaded images into high-quality figure-style AI illustrations.  
 

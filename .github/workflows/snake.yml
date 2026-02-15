@@ -15,7 +15,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+
     steps:
       # 自分のリポジトリの草（コントリビューション）からへびを生成
       - name: generate github-contribution-grid-snake.svg
@@ -27,7 +27,12 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
+      - name: Setup git user
+        run: |
+          git config --global user.name "neon-aiart"
+          git config --global user.email "240400715+neon-aiart@users.noreply.github.com"
+
       # 生成された画像を 'output' というブランチに保存（デプロイ）する
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

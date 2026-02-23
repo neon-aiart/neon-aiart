@@ -154,6 +154,10 @@ A specialized UserScript for "Tokimeki" to **instantly copy "Invariable Links (D
 **AIイラスト投稿サイトのタグ入力を自動化。** テンプレート化したタグをワンクリックで入力・確定し、投稿の手間を大幅に削減します。  
 **Automates tag entry for AI illustration sites** like Chichi-pui and Iromirai. Save templates and fill/confirm tags with a single click.  
 
+### **🐦 [Chirp Whisper Link](https://github.com/neon-aiart/chirp-whisper-link/)**  
+YouTube URLやローカルファイルから、Whisperを使って自動で文字起こしするシンプルなColabスクリプトです  
+A simple Google Colab script to transcribe audio from YouTube URLs or local files using Whisper.  
+
 ### **↩️ [History Go First](https://github.com/neon-aiart/history-go-first/)**
 **履歴の最初へ一気に戻る。** ブラウザの履歴を遡り、最初に開いたページまで瞬時に戻ります。  
 A UserScript that **navigates back to the very first page** of the browser history in one go.  

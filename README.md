@@ -130,6 +130,10 @@
 **Gemini Canvas専用の画像生成補助アプリ。** ワンクリックで、究極の「飯テロ」画像が生成できます。  
 An ultimate "Appetite-Stimulating" image generation aid specifically designed for the **Google Gemini Canvas environment**.  
 
+### **🐦 [Chirp Whisper Link](https://github.com/neon-aiart/chirp-whisper-link/)**  
+YouTube URLやローカルファイルから、Whisperを使って自動で文字起こしするシンプルなColabスクリプトです  
+A simple Google Colab script to transcribe audio from YouTube URLs or local files using Whisper.  
+
 ### **🔄️ [Bluesky Tokimeki Switcher](https://github.com/neon-aiart/bsky-tokimeki-switcher/)**
 **BSKY ⇔ Tokimeki 切り替え。** URLをボタンやショートカットで瞬時に切り替えるUserScript。  
 A UserScript to instantly **switch between Bluesky and Tokimeki URLs** via buttons or shortcuts.  
@@ -153,10 +157,6 @@ A specialized UserScript for "Tokimeki" to **instantly copy "Invariable Links (D
 ### **🏷️ [Auto Tags Filler for chichi-pui & iromirai](https://github.com/neon-aiart/auto-tags-filler/)**
 **AIイラスト投稿サイトのタグ入力を自動化。** テンプレート化したタグをワンクリックで入力・確定し、投稿の手間を大幅に削減します。  
 **Automates tag entry for AI illustration sites** like Chichi-pui and Iromirai. Save templates and fill/confirm tags with a single click.  
-
-### **🐦 [Chirp Whisper Link](https://github.com/neon-aiart/chirp-whisper-link/)**  
-YouTube URLやローカルファイルから、Whisperを使って自動で文字起こしするシンプルなColabスクリプトです  
-A simple Google Colab script to transcribe audio from YouTube URLs or local files using Whisper.  
 
 ### **↩️ [History Go First](https://github.com/neon-aiart/history-go-first/)**
 **履歴の最初へ一気に戻る。** ブラウザの履歴を遡り、最初に開いたページまで瞬時に戻ります。  

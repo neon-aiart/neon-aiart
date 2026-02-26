@@ -21,11 +21,6 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Setup git user
-        run: |
-          git config --global user.name "neon-aiart"
-          git config --global user.email "240400715+neon-aiart@users.noreply.github.com"
-
       # push the content of  to a branch
       # the content will be available at https://raw.githubusercontent.com//// , or as github page
       - name: push pacman-contribution-graph.svg to the output branch
@@ -34,5 +29,7 @@ jobs:
           target_branch: output
           build_dir: dist
           keep_history: true
+          author: neon-aiart <240400715+neon-aiart@users.noreply.github.com>
+          committer: neon-aiart <240400715+neon-aiart@users.noreply.github.com>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -166,6 +166,10 @@ A UserScript that **navigates back to the very first page** of the browser histo
 **Webページのソースを文字化けせず保存。** HTMLソースコードを、UTF-8形式で安全にローカルへ保存できるUserScriptです。  
 A UserScript to save **the HTML source code of web pages** in UTF-8 format without character encoding issues.  
 
+### **🍣 [Spitch Omakase Connect](https://github.com/neon-aiart/spitch-omakase-connect/)**  
+GoogleColabでVOICEVOXとRVCの環境構築  
+Setup VOICEVOX & RVC on Google Colab.  
+
 <!--
 ### **📺 [TVer Click to Play](https://github.com/neon-aiart/tver-click-to-play/)**
 **TVerの動画自動再生を防止。** ページを開いた際に動画が勝手に流れ出すのを防ぎ、自分のタイミングで再生を開始できます。  

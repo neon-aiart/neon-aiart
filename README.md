@@ -36,8 +36,9 @@
       <div style="height: 100%;">
         <a href="https://random-image.neon-aiillust.workers.dev/purge-and-close" target="_blank" rel="noopener noreferrer">
           <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /><br />
-          click to camo purge and refresh random image
+          click to camo purge and refresh
         </a>
+        images and GIFs at random
       </div>
       <h2></h2>
       <p align="right">

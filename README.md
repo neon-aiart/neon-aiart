@@ -38,7 +38,7 @@
           <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /><br />
           click to camo purge and refresh
         </a><br />
-        images and GIFs at random
+        20 images and 4 GIFs at random
       </div>
       <h2></h2>
       <p align="right">
@@ -117,11 +117,16 @@
 
 ---
 
-## 🎀 Projects Showcase 🎀
+## 🎀 Projects Showcase 🎀  
 
-### **💬 [Neon Spitch Link](https://github.com/neon-aiart/neon-spitch-link/)**
+### **💬 [Neon Spitch Link](https://github.com/neon-aiart/neon-spitch-link/)**  
 **AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  
 **Automatically read AI conversations.** The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.  
+
+> Related: 
+> [🍣](#-spitch-omakase-connect) 
+> [📖](#-声の地政学-googleのai戦略によって排除されたrvcのお話) 
+> [<img src="https://www.google.com/s2/favicons?domain=youtu.be&size=16" alt="YouTube" style="vertical-align: middle;" height="20">](https://youtu.be/SFSfAoHYki0)  
 
 ### **🐥 [Figure AIart Maker](https://github.com/neon-aiart/figure-aiart-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
@@ -179,15 +184,13 @@ A simple script that **prevents videos from auto-playing when opening a TVer epi
 
 ---
 
-## 📚​ Writing Portfolio 📚  
+## 📚 Writing Portfolio 📚  
 
-### 📖 **AIには『最適解』として提示することはできないロジックのお話**  
+### 📖 **[AIには『最適解』として提示することはできないロジックのお話](https://sizu.me/neon_aiart/posts/tsmbx48v8w56)**  
 📔 **A Logic That AI Cannot Present as an "Optimal Solution"**  
-https://sizu.me/neon_aiart/posts/tsmbx48v8w56
 
-### 📖 **声の地政学: GoogleのAI戦略によって排除されたRVCのお話**  
+### 📖 **[声の地政学: GoogleのAI戦略によって排除されたRVCのお話](https://sizu.me/neon_aiart/posts/h57a55dr2edu)**  
 📔 **The Geopolitics of Voice: RVC Excluded from Google’s AI strategy**  
-https://sizu.me/neon_aiart/posts/h57a55dr2edu
 
 <!--
 <script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>

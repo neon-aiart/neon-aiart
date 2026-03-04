@@ -123,9 +123,10 @@
 **AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  
 **Automatically read AI conversations.** The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.  
 
-<pre>
-Related: <a href="#-spitch-omakase-connect">🍣</a> <a href="#-声の地政学-googleのai戦略によって排除されたrvcのお話">📖</a> <a href="https://youtu.be/SFSfAoHYki0"><img src="https://www.google.com/s2/favicons?domain=youtu.be&size=16" alt="YouTube" style="vertical-align: middle;" height="16"></a>  
-</pre>
+Related:&nbsp;
+<a href="#-spitch-omakase-connect"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f363/512.png" alt="🍣" width="20" height="20" align="center"></a>&nbsp;
+<a href="#-声の地政学-googleのai戦略によって排除されたrvcのお話"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4d6/512.png" alt="📖" width="20" height="20" align="center"></a>&nbsp;
+<a href="https://youtu.be/SFSfAoHYki0"><img src="https://www.google.com/s2/favicons?domain=youtu.be&size=32" alt="YouTube" width="20" height="20" align="center"></a>  
 
 ### **🐥 [Figure AIart Maker](https://github.com/neon-aiart/figure-aiart-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  

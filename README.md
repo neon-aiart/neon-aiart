@@ -38,7 +38,7 @@
           <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /><br />
           click to camo purge and refresh
         </a><br />
-        20 images and 4 GIFs at random
+        22 images and 4 GIFs at random
       </div>
       <h2></h2>
       <p align="right">
@@ -123,10 +123,10 @@
 **AIとの会話を好きな声で自動読み上げ。** APIやサーバー不要で、VOICEVOXやRVCを無料で利用できる世界唯一のUserScript。  
 **Automatically read AI conversations.** The world's only UserScript that uses VOICEVOX/RVC for free without APIs or Python servers.  
 
-> Related:&nbsp;
+> see also:&nbsp;
 > <a href="#-spitch-omakase-connect"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f363/512.png" alt="🍣" width="20" height="20" align="center"></a>&nbsp;
 > <a href="#-声の地政学-googleのai戦略によって排除されたrvcのお話"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4d6/512.png" alt="📖" width="20" height="20" align="center"></a>&nbsp;
-> <a href="https://youtu.be/SFSfAoHYki0"><img src="https://www.google.com/s2/favicons?domain=youtu.be&size=32" alt="YouTube" width="20" height="20"></a>  
+> <a href="https://youtu.be/SFSfAoHYki0"><img src="https://www.google.com/s2/favicons?domain=youtu.be&size=32" alt="YouTube" width="20" height="20" align="center"></a>  
 
 ### **🐥 [Figure AIart Maker](https://github.com/neon-aiart/figure-aiart-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** アップロードするだけで、高品質なフィギュア風イラストに変換します。  
@@ -135,6 +135,9 @@
 ### **🍽️ [Meshi AIart Maker](https://github.com/neon-aiart/meshi-art-maker/)**
 **Gemini Canvas専用の画像生成補助アプリ。** ワンクリックで、究極の「飯テロ」画像が生成できます。  
 An ultimate "Appetite-Stimulating" image generation aid specifically designed for the **Google Gemini Canvas environment**.  
+
+> see also:&nbsp;
+> <a href="https://youtu.be/8zejiDRTeWk"><img src="https://www.google.com/s2/favicons?domain=youtu.be&size=32" alt="YouTube" width="20" height="20" align="center"></a>  
 
 ### **🐦 [Chirp Whisper Link](https://github.com/neon-aiart/chirp-whisper-link/)**  
 YouTube URLやローカルファイルから、Whisperを使って自動で文字起こしするシンプルなColabスクリプトです  
@@ -168,6 +171,9 @@ A specialized UserScript for "Tokimeki" to **instantly copy "Invariable Links (D
 **履歴の最初へ一気に戻る。** ブラウザの履歴を遡り、最初に開いたページまで瞬時に戻ります。  
 A UserScript that **navigates back to the very first page** of the browser history in one go.  
 
+> see also:&nbsp;
+> <a href="#-aiには最適解として提示することはできないロジックのお話"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4d6/512.png" alt="📖" width="20" height="20" align="center"></a>  
+
 ### **💾 [HTML Source Downloader](https://github.com/neon-aiart/html-source-downloader/)**
 **Webページのソースを文字化けせず保存。** HTMLソースコードを、UTF-8形式で安全にローカルへ保存できるUserScriptです。  
 A UserScript to save **the HTML source code of web pages** in UTF-8 format without character encoding issues.  
@@ -175,6 +181,10 @@ A UserScript to save **the HTML source code of web pages** in UTF-8 format witho
 ### **🍣 [Spitch Omakase Connect](https://github.com/neon-aiart/spitch-omakase-connect/)**  
 GoogleColabでVOICEVOXとRVCの環境構築  
 Setup VOICEVOX & RVC on Google Colab.  
+
+> see also:&nbsp;
+> <a href="#-neon-spitch-link"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.png" alt="💬" width="20" height="20" align="center"></a>&nbsp;
+> <a href="#-声の地政学-googleのai戦略によって排除されたrvcのお話"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4d6/512.png" alt="📖" width="20" height="20" align="center"></a>  
 
 <!--
 ### **📺 [TVer Click to Play](https://github.com/neon-aiart/tver-click-to-play/)**
@@ -184,13 +194,20 @@ A simple script that **prevents videos from auto-playing when opening a TVer epi
 
 ---
 
-## 📚 Writing Portfolio 📚  
+## 📚 Writing Portfolio  
 
 ### 📖 **[AIには『最適解』として提示することはできないロジックのお話](https://sizu.me/neon_aiart/posts/tsmbx48v8w56)**  
-📔 **A Logic That AI Cannot Present as an "Optimal Solution"**  
+* **A Logic That AI Cannot Present as an "Optimal Solution"**  
+
+> see also:&nbsp;
+> <a href="#️-history-go-first"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/21a9/512.png" alt="↩️" width="20" height="20" align="center"></a>  
 
 ### 📖 **[声の地政学: GoogleのAI戦略によって排除されたRVCのお話](https://sizu.me/neon_aiart/posts/h57a55dr2edu)**  
-📔 **The Geopolitics of Voice: RVC Excluded from Google’s AI strategy**  
+* **The Geopolitics of Voice: RVC Excluded from Google’s AI strategy**  
+
+> see also:&nbsp;
+> <a href="#-neon-spitch-link"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.png" alt="💬" width="20" height="20" align="center"></a>&nbsp;
+> <a href="#-spitch-omakase-connect"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f363/512.png" alt="🍣" width="20" height="20" align="center"></a>  
 
 <!--
 <script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>

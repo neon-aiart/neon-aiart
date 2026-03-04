@@ -179,13 +179,13 @@ A simple script that **prevents videos from auto-playing when opening a TVer epi
 
 ---
 
-​### 📚​ Writing Portfolio 📚
+## 📚​ Writing Portfolio 📚  
 
-📖 **AIには『最適解』として提示することはできないロジックのお話**  
+### 📖 **AIには『最適解』として提示することはできないロジックのお話**  
 📔 **A Logic That AI Cannot Present as an "Optimal Solution"**  
 https://sizu.me/neon_aiart/posts/tsmbx48v8w56
 
-📖 **声の地政学: GoogleのAI戦略によって排除されたRVCのお話**  
+### 📖 **声の地政学: GoogleのAI戦略によって排除されたRVCのお話**  
 📔 **The Geopolitics of Voice: RVC Excluded from Google’s AI strategy**  
 https://sizu.me/neon_aiart/posts/h57a55dr2edu
 

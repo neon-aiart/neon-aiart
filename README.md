@@ -37,7 +37,7 @@
         <a href="https://random-image.neon-aiillust.workers.dev/purge-and-close" target="_blank" rel="noopener noreferrer">
           <img src="https://random-image.neon-aiillust.workers.dev/" style="max-height: 480px; width: 100%; height: auto; object-fit: contain;" alt="Random AI Art" /><br />
           click to camo purge and refresh
-        </a>
+        </a><br />
         images and GIFs at random
       </div>
       <h2></h2>

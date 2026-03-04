@@ -177,6 +177,14 @@ Setup VOICEVOX & RVC on Google Colab.
 A simple script that **prevents videos from auto-playing when opening a TVer episode page,** allowing you to play at your convenience.  
 -->
 
+---
+
+​### 📚​ Writing Portfolio 📚
+
+📖 **AIには『最適解』として提示することはできないロジックのお話**
+**A Logic That AI Cannot Present as an "Optimal Solution"**
+https://sizu.me/neon_aiart/posts/tsmbx48v8w56
+
 <!--
 <script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>
 -->

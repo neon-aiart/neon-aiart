@@ -11,8 +11,7 @@
       <a href="https://github.com/neon-aiart">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/d1d7e0">
-          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/181717"><img src="https://cdn.simpleicons.org/github/181717" height="28" alt="github">
-        </picture>
+          <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/181717"><img src="https://cdn.simpleicons.org/github/181717" height="28" alt="github"></picture>
       </a>&thinsp;
       <a href="https://zenn.dev/neon_aiart"><img src="https://cdn.simpleicons.org/zenn/3EA8FF" height="28" alt="zenn"></a>&thinsp;
       <a href="https://bsky.app/profile/neon-ai.art/">

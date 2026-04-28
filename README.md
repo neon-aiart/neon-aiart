@@ -263,6 +263,9 @@ A simple script that **prevents videos from auto-playing when opening a TVer epi
 
 * **Architecture of Fileless RVC Integration: Overcoming Base64 Handling Constraints in Gradio API**  
 
+> see also:&nbsp;
+  <a href="#-neon-spitch-link"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4ac/512.png" alt="💬" height="20" align="center"></a>
+
 <!--
 <script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>
 -->

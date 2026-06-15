@@ -1,6 +1,11 @@
 name: 🗑️ Auto Camo Purge
 on:
   workflow_dispatch:
+    inputs:
+      target_url:
+        description: 'URL to parse and purge'
+        required: false
+        default: '' # 初期値は空にしておきます
   schedule:
     - cron: '*/10 * * * *' # 10分おき
 
@@ -12,23 +17,31 @@ jobs:
         run: |
           PROFILE_URL="https://github.com/neon-aiart/"
 
-          # 1. ライトモード用のHTMLからURLを抽出
-          echo "Fetching Light Mode URLs..."
+          # 1. プロフィール（ライトモード）からURL抽出
+          echo "Fetching Profile Light Mode URLs..."
           URLS_LIGHT=$(curl -s -H "Cookie: color_mode=%7B%22color_mode%22%3A%22light%22%2C%22auto_theme%22%3Afalse%7D" "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
 
-          # 2. ダークモード用のHTMLからURLを抽出
-          echo "Fetching Dark Mode URLs..."
+          # 2. プロフィール（ダークモード）からURL抽出
+          echo "Fetching Profile Dark Mode URLs..."
           URLS_DARK=$(curl -s -H "Cookie: color_mode=%7B%22color_mode%22%3A%22dark%22%2C%22auto_theme%22%3Afalse%7D" "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
 
-          # 3. 両方を合体して重複を削除
-          CAMO_URLS=$(echo -e "$URLS_LIGHT\n$URLS_DARK" | sort -u)
+          # 3. 引数（target_url）がある場合は、そのリポジトリのURLからも抽出
+          TARGET="${{ github.event.inputs.target_url }}"
+          URLS_REPO=""
+          if [ -n "$TARGET" ]; then
+            echo "Fetching Target Repository URLs: $TARGET"
+            URLS_REPO=$(curl -s "$TARGET" | grep -oP 'camo.githubusercontent.com/[^"]+')
+          fi
+
+          # 4. すべて合体して重複を削除
+          CAMO_URLS=$(echo -e "$URLS_LIGHT\n$URLS_DARK\n$URLS_REPO" | sort -u)
 
           if [ -z "$CAMO_URLS" ]; then
             echo "No Camo URLs found."
             exit 0
           fi
 
-          # 4. まとめて PURGE
+          # 5. まとめて PURGE
           for url in $CAMO_URLS; do
             echo "Purging: $url"
             curl -sS -X PURGE "https://$url"

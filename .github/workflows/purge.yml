@@ -12,6 +12,8 @@ on:
 jobs:
   purge:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       # 1. 引数（target_url）がある場合は、そのリポジトリのCamoをパージ
       - name: Purge Target Repository

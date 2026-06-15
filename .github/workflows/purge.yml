@@ -25,12 +25,19 @@ jobs:
           echo "Fetching Profile Dark Mode URLs..."
           URLS_DARK=$(curl -s -H "Cookie: color_mode=%7B%22color_mode%22%3A%22dark%22%2C%22auto_theme%22%3Afalse%7D" "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
 
-          # 3. 引数（target_url）がある場合は、そのリポジトリのURLからも抽出
+          # 3. 引数（target_url）がある場合は、README単体のレンダリングHTMLから抽出
           TARGET="${{ github.event.inputs.target_url }}"
           URLS_REPO=""
           if [ -n "$TARGET" ]; then
-            echo "Fetching Target Repository URLs: $TARGET"
-            URLS_REPO=$(curl -s "$TARGET" | grep -oP 'camo.githubusercontent.com/[^"]+')
+            echo "Fetching Target Repository README..."
+
+            # 渡されたURLの末尾に「/hovercard`」を付けることで、
+            # GitHubの裏APIから、READMEがレンダリング済みのCamo URL入りHTMLを直接取得します
+            README_HTML_URL="${TARGET}/hovercard"
+            echo "Target Hovercard URL: $README_HTML_URL"
+
+            # これでプロフィールページと全く同じように、camoのURLが綺麗に抽出できるようになります
+            URLS_REPO=$(curl -s "$README_HTML_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
           fi
 
           # 4. すべて合体して重複を削除

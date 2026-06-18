@@ -1,35 +1,29 @@
 name: 🗑️ Auto Camo Purge
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: 'URL to parse and purge'
+        required: false
+        default: ''
   schedule:
     - cron: '*/10 * * * *' # 10分おき
 
 jobs:
   purge:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Purge Worker Cache
-        run: |
-          PROFILE_URL="https://github.com/neon-aiart/"
+      # 1. 引数（target_url）がある場合は、そのリポジトリのCamoをパージ
+      - name: Purge Target Repository
+        if: ${{ github.event.inputs.target != '' }}
+        uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
+        with:
+          repository: ${{ github.event.inputs.target }}
 
-          # 1. ライトモード用のHTMLからURLを抽出
-          echo "Fetching Light Mode URLs..."
-          URLS_LIGHT=$(curl -s -H "Cookie: color_mode=%7B%22color_mode%22%3A%22light%22%2C%22auto_theme%22%3Afalse%7D" "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
-
-          # 2. ダークモード用のHTMLからURLを抽出
-          echo "Fetching Dark Mode URLs..."
-          URLS_DARK=$(curl -s -H "Cookie: color_mode=%7B%22color_mode%22%3A%22dark%22%2C%22auto_theme%22%3Afalse%7D" "$PROFILE_URL" | grep -oP 'camo.githubusercontent.com/[^"]+')
-
-          # 3. 両方を合体して重複を削除
-          CAMO_URLS=$(echo -e "$URLS_LIGHT\n$URLS_DARK" | sort -u)
-
-          if [ -z "$CAMO_URLS" ]; then
-            echo "No Camo URLs found."
-            exit 0
-          fi
-
-          # 4. まとめて PURGE
-          for url in $CAMO_URLS; do
-            echo "Purging: $url"
-            curl -sS -X PURGE "https://$url"
-          done
+      # 2. 定期実行（または連動時）に自分のプロフィールページも常にパージ
+      - name: Purge Profile Page
+        uses: koki-develop/hub-purge-action@c608e39abca23026c802f44643cffccc123a826f # v1.0.3
+        with:
+          repository: neon-aiart/neon-aiart

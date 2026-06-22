@@ -75,7 +75,8 @@
       </p>
       <h2></h2>
       <!-- <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio> -->
-      <audio controls src="audio_intro.mp3"></audio>
+      <!-- <audio controls src="audio_intro.mp3"></audio> -->
+      <video controls src="video_intro.mp4"></video>
     </td>
   </tr>
   <tr>

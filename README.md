@@ -74,9 +74,13 @@
           <img src="https://img.shields.io/badge/OFUSE-%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B-00c2b2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="ofuse"></a>
       </p>
       <h2></h2>
-      <!-- <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio> -->
-      <!-- <audio controls src="audio_intro.mp3"></audio> -->
-      <video controls><source src="video_intro.mp4" type="video/mp4"></video>
+      1. <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio>
+      2. <audio controls src="audio_intro.mp3"></audio>
+      3. <audio controls src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/main/audio_intro.mp3"></audio>
+      3. <video controls><source src="video_intro.mp4" type="video/mp4"></video>
+      4. <video controls><source src="https://raw.githubusercontent.com/neon-aiart/neon-aiart/main/video_intro.mp4" type="video/mp4"></video>
+      5. [audio_intro.mp3](https://github.com/user-attachments/files/29220022/audio_intro.mp3)
+
     </td>
   </tr>
   <tr>

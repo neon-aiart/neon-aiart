@@ -75,7 +75,7 @@
       </p>
       <h2></h2>
       <!-- <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio> -->
-      <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio>
+      <audio controls src="audio_intro.mp3"></audio>
     </td>
   </tr>
   <tr>

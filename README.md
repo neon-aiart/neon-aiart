@@ -73,6 +73,8 @@
         <a href="https://ofuse.me/neon">
           <img src="https://img.shields.io/badge/OFUSE-%E5%BF%9C%E6%8F%B4%E3%81%99%E3%82%8B-00c2b2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="ofuse"></a>
       </p>
+      <h2></h2>
+      <audio controls src="https://audio-intro.neon-aiillust.workers.dev/"></audio>
     </td>
   </tr>
   <tr>

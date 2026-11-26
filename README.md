@@ -349,6 +349,10 @@ A simple script that **prevents videos from auto-playing when opening a TVer epi
 
 * **[Forge Neo: How I Fixed Compatibility Errors Between sd-forge-negpip and anima-ref-adapter-neo](https://zenn.dev/neon_aiart/articles/bbeabcf9b3114a?locale=en)**  
 
+### 📖 **[Forge Neo × Anima（DiT）で Regional Prompter と NegPiP（本家・派生）を併用できるようにしたお話](https://zenn.dev/neon_aiart/articles/27787e29a4e635)**  
+
+* **[Forge Neo: How I Fixed Compatibility Errors Between Regional Prompter and NegPiP (Upstream & Fork) on Anima (DiT)](https://zenn.dev/neon_aiart/articles/27787e29a4e635?locale=en)**  
+
 <!--
 <script src="https://blueskytimeline.com/timeline.js" async data-handle="neon-ai.art" data-theme="gray" data-width="420" data-height="500" data-lang="ja" data-ui="0" data-prof="0" data-pin="1" data-rp="1" data-thread="0" data-id="timeline"></script>
 -->
